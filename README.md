@@ -124,16 +124,6 @@ I work at the intersection of **machine learning, computer vision, and systems p
  
 </div>
 
----
-
-
-## 🎯 2026 Goals
-
-- [ ] Complete facial recognition system with production-ready API
-- [ ] Finish custom compiler/interpreter project
-- [ ] Contribute to an open-source ML library
-- [ ] Land an AI/ML internship
-- [ ] Deploy at least 2 public-facing projects
 
 ---
 
