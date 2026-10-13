@@ -159,19 +159,19 @@
       }
     ],
     "matchStats": {
-      "goals": 120,
-      "assists": 18,
+      "goals": 97,
+      "assists": 1,
       "mvpVotes": 42,
-      "matches": 12,
-      "winStreak": 7,
+      "matches": 11,
+      "winStreak": 1,
       "goalThreshold": 100
     },
     "statSources": {
-      "goals": "demo",
-      "assists": "demo",
+      "goals": "github",
+      "assists": "github",
       "mvpVotes": "demo",
-      "matches": "demo",
-      "winStreak": "demo",
+      "matches": "github",
+      "winStreak": "github",
       "goalThreshold": "manual"
     },
     "languages": [
@@ -1717,7 +1717,7 @@
       },
       {
         "date": "2026-10-13",
-        "count": 0
+        "count": 1
       }
     ],
     "egoWeapon": "Metavision Spatial Awareness × Direct Volley Execution",
@@ -1725,8 +1725,8 @@
     "currentBid": "¥300,000,000",
     "seasonSync": {
       "username": "bachkhmt",
-      "at": "2026-10-13T05:52:50.050Z",
-      "method": "public-calendar"
+      "at": "2026-10-13T06:34:19.201Z",
+      "method": "github-graphql"
     }
   }
 }
