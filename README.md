@@ -104,6 +104,20 @@ I work at the intersection of **machine learning, computer vision, and systems p
 
 ## 📈 Contribution Activity
 
+<!-- ego-striker-contributions:start -->
+<div align="center">
+
+<!-- Season Heatmap: compact sources must come before wide sources. -->
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/ego-striker/season.chapter-log.isagi.dark.compact.svg">
+  <source media="(max-width: 480px)" srcset="assets/ego-striker/season.chapter-log.isagi.light.compact.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ego-striker/season.chapter-log.isagi.dark.wide.svg">
+  <img src="assets/ego-striker/season.chapter-log.isagi.light.wide.svg" alt="GitHub contributions của bachkhmt — Chapter Log" width="800">
+</picture>
+
+</div>
+<!-- ego-striker-contributions:end -->
+
 <div align="center">
  
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=bachkhmt&bg_color=0D1117&color=1E90FF&line=1E90FF&point=FFFFFF&area=true&area_color=1E2A4A&hide_border=true" />

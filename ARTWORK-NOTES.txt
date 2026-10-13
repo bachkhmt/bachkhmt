@@ -1,0 +1,2 @@
+The Blue Lock cover collection uses 24 original AI fan illustrations generated with the built-in ImageGen tool. Artwork is embedded in the SVGs; no remote image loading is required. Text, numbers and data are separate SVG layers.
+Selected original PNGs: assets/artwork/source/ in the Studio source project. Prompts: assets/artwork/prompts.json. Pipeline: npm run artwork:build. References and design mapping: docs/BLUE-LOCK-DESIGN-RESEARCH.md. This is an independent fan project, not an official Blue Lock product.

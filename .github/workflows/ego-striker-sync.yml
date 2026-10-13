@@ -1,0 +1,41 @@
+name: Sync Ego Striker Cards
+on:
+  schedule:
+    # 00:17 UTC = 07:17 Vietnam (UTC+7), every day.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+    inputs:
+      readme_output:
+        description: README output target
+        type: choice
+        options: [profile, root]
+        default: profile
+
+concurrency:
+  group: ego-striker-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run generate -- --all-templates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          README_OUTPUT: ${{ inputs.readme_output || 'profile' }}
+      - env:
+          README_OUTPUT: ${{ inputs.readme_output || 'profile' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ego-striker PROFILE-README.md profile.config.json
+          if [ "$README_OUTPUT" = "root" ]; then git add README.md; fi
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: sync ego-striker profile cards [skip ci]" && git push)

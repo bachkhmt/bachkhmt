@@ -1,0 +1,48 @@
+{
+  "name": "ego-striker-component-studio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "node -e \"require('fs').rmSync('dist', { recursive: true, force: true })\"",
+    "lint": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:visual": "playwright test",
+    "export:demo": "tsx scripts/export-demo.ts",
+    "generate": "tsx scripts/generate-profile.ts",
+    "ego-striker": "tsx scripts/cli.ts",
+    "test:github": "tsx scripts/check-github-markdown.ts",
+    "gallery": "tsx scripts/generate-gallery.ts",
+    "artwork:build": "node scripts/build-artwork.mjs",
+    "format": "prettier --write src tests scripts *.json vite.config.ts playwright.config.ts README.md",
+    "fonts:build": "tsx scripts/build-fonts.ts",
+    "test:budget": "node scripts/check-bundle-budget.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jszip": "^3.10.2",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.14.0",
+    "@types/opentype.js": "^1.3.10",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@xmldom/xmldom": "^0.8.11",
+    "autoprefixer": "^10.4.21",
+    "opentype.js": "^2.0.0",
+    "prettier": "^3.9.9",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  }
+}
