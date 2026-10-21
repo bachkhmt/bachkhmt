@@ -163,7 +163,7 @@
       "assists": 1,
       "mvpVotes": 42,
       "matches": 11,
-      "winStreak": 2,
+      "winStreak": 0,
       "goalThreshold": 100
     },
     "statSources": {
@@ -255,10 +255,6 @@
     },
     "seasonSource": "github",
     "seasonDays": [
-      {
-        "date": "2025-10-20",
-        "count": 0
-      },
       {
         "date": "2025-10-21",
         "count": 0
@@ -1713,10 +1709,14 @@
       },
       {
         "date": "2026-10-19",
-        "count": 7
+        "count": 9
       },
       {
         "date": "2026-10-20",
+        "count": 0
+      },
+      {
+        "date": "2026-10-21",
         "count": 0
       }
     ],
@@ -1725,7 +1725,7 @@
     "currentBid": "¥300,000,000",
     "seasonSync": {
       "username": "bachkhmt",
-      "at": "2026-10-20T04:54:36.734Z",
+      "at": "2026-10-21T04:52:30.515Z",
       "method": "github-graphql"
     }
   }
