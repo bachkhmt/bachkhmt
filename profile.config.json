@@ -163,7 +163,7 @@
       "assists": 1,
       "mvpVotes": 42,
       "matches": 11,
-      "winStreak": 0,
+      "winStreak": 2,
       "goalThreshold": 100
     },
     "statSources": {
@@ -255,10 +255,6 @@
     },
     "seasonSource": "github",
     "seasonDays": [
-      {
-        "date": "2025-10-22",
-        "count": 0
-      },
       {
         "date": "2025-10-23",
         "count": 0
@@ -1717,7 +1713,11 @@
       },
       {
         "date": "2026-10-22",
-        "count": 0
+        "count": 1
+      },
+      {
+        "date": "2026-10-23",
+        "count": 1
       }
     ],
     "egoWeapon": "Metavision Spatial Awareness × Direct Volley Execution",
@@ -1725,7 +1725,7 @@
     "currentBid": "¥300,000,000",
     "seasonSync": {
       "username": "bachkhmt",
-      "at": "2026-10-22T04:51:42.390Z",
+      "at": "2026-10-23T04:53:51.325Z",
       "method": "github-graphql"
     }
   }
