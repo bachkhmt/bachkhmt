@@ -256,10 +256,6 @@
     "seasonSource": "github",
     "seasonDays": [
       {
-        "date": "2025-10-23",
-        "count": 0
-      },
-      {
         "date": "2025-10-24",
         "count": 0
       },
@@ -1629,11 +1625,11 @@
       },
       {
         "date": "2026-10-01",
-        "count": 55
+        "count": 56
       },
       {
         "date": "2026-10-02",
-        "count": 11
+        "count": 12
       },
       {
         "date": "2026-10-03",
@@ -1661,7 +1657,7 @@
       },
       {
         "date": "2026-10-09",
-        "count": 19
+        "count": 32
       },
       {
         "date": "2026-10-10",
@@ -1685,7 +1681,7 @@
       },
       {
         "date": "2026-10-15",
-        "count": 12
+        "count": 13
       },
       {
         "date": "2026-10-16",
@@ -1717,7 +1713,11 @@
       },
       {
         "date": "2026-10-23",
-        "count": 1
+        "count": 17
+      },
+      {
+        "date": "2026-10-24",
+        "count": 0
       }
     ],
     "egoWeapon": "Metavision Spatial Awareness × Direct Volley Execution",
@@ -1725,7 +1725,7 @@
     "currentBid": "¥300,000,000",
     "seasonSync": {
       "username": "bachkhmt",
-      "at": "2026-10-23T04:53:51.325Z",
+      "at": "2026-10-24T04:39:59.165Z",
       "method": "github-graphql"
     }
   }
