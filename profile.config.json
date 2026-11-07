@@ -256,10 +256,6 @@
     "seasonSource": "github",
     "seasonDays": [
       {
-        "date": "2025-11-06",
-        "count": 3
-      },
-      {
         "date": "2025-11-07",
         "count": 0
       },
@@ -1717,7 +1713,11 @@
       },
       {
         "date": "2026-11-06",
-        "count": 6
+        "count": 14
+      },
+      {
+        "date": "2026-11-07",
+        "count": 0
       }
     ],
     "egoWeapon": "Metavision Spatial Awareness × Direct Volley Execution",
@@ -1725,7 +1725,7 @@
     "currentBid": "¥300,000,000",
     "seasonSync": {
       "username": "bachkhmt",
-      "at": "2026-11-06T06:51:02.310Z",
+      "at": "2026-11-07T06:01:42.807Z",
       "method": "github-graphql"
     }
   }
